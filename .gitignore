@@ -5,3 +5,6 @@ bin/
 
 # si usamos maven no comitear target
 target/
+
+.jar
+.zip
