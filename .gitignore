@@ -2,3 +2,6 @@
 .project
 bin/
 .settings
+
+# si usamos maven no comitear target
+target/
