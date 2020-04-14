@@ -6,6 +6,8 @@ public class Agenda {
 	
 	private String detalle;
 
+	private Boolean prioriataria;
+
 	public String getNombre() {
 		return nombre;
 	}
