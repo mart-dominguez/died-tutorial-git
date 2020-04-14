@@ -24,7 +24,7 @@ public class Agenda {
 	
 	@Override
 	public String toString() {
-		return nombre;
+		return nombre + detalle.toUpperCase();
 	}
 
 
