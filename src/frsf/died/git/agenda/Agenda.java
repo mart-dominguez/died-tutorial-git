@@ -22,7 +22,10 @@ public class Agenda {
 		this.detalle = detalle;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return nombre;
+	}
 
 
 }
