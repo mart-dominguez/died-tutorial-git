@@ -6,6 +6,9 @@ public class Tarea {
 
 	private String descripcion;
 	private LocalDate fecha;
+
+	
+
 	public String getDescripcion() {
 		return descripcion;
 	}
@@ -22,6 +25,14 @@ public class Tarea {
 	public String toString() {
 		return "Tarea [descripcion=" + descripcion + ", fecha=" + fecha + "]";
 	}
+
+	public Tarea(String descripcion, LocalDate fecha) {
+		this.descripcion = descripcion;
+		this.fecha = fecha;
+	}
 	
+	
+	public Tarea() {
+	}
 	
 }
