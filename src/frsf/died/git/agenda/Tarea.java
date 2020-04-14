@@ -18,6 +18,10 @@ public class Tarea {
 	public void setFecha(LocalDate fecha) {
 		this.fecha = fecha;
 	}
+	@Override
+	public String toString() {
+		return "Tarea [descripcion=" + descripcion + ", fecha=" + fecha + "]";
+	}
 	
 	
 }
