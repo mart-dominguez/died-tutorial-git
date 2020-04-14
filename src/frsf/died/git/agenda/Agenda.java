@@ -2,9 +2,27 @@ package frsf.died.git.agenda;
 
 public class Agenda {
 	
+	
+	
 	private String nombre;
 	
 	private String detalle;
+	
+	
+
+	public Agenda() {
+		super();
+	}
+	
+	
+
+	public Agenda(String nombre, String detalle) {
+		super();
+		this.nombre = nombre;
+		this.detalle = detalle;
+	}
+
+
 
 	private Boolean prioriataria;
 
